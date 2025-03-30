@@ -1,0 +1,23 @@
+conda env list
+conda activate base
+pip list
+conda create -n project1 python=3.7
+pip install numpy pandas
+pip freeze > dependencies.txt
+pip install -r dependencies.txt
+
+
+--saving the ML Model
+.pickle
+.joblib
+
+
+gunicorn install is needed for deployemnt on cloud
+procfile needs to be crated 
+    web:gunicorn app.py
+
+in app.py add
+    if __name__ =="__main__" :
+        run 
+
+
