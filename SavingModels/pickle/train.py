@@ -18,3 +18,4 @@ print(result)
 # modal saving
 filename = 'diabetic_25.pkl'
 pickle.dump(modal,open(filename,'wb'))
+print(result)
